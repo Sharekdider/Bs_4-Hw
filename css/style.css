@@ -1,0 +1,49 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,a,button{
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+span,
+small{
+    margin: 0;
+    padding: 0;
+}
+ol,
+ul{
+    list-style-type: none;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+
+nav #main_menu .navbar_icon ul li button{
+   background: none;
+   border: none;
+   position: relative;
+}
+nav #main_menu .navbar_icon ul li button span{
+   position: absolute;
+   top: -5px;
+   right: -5px;
+   width: 15px;
+   height: 15px;
+   font-size: 14px;
+   border-radius: 50%;
+   background: #FF6F61;
+   display: inline-block;
+   text-align: center;
+   line-height: 15px;
+   color:white;
+} 
+
